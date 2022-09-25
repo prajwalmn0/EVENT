@@ -1,0 +1,31 @@
+<html>
+    <head>
+        <title>SIGNUP PAGE</title>
+        <link rel="stylesheet" href="/static/css/signup.css">
+    </head>
+    <body>
+        <div class="signup">
+            <h1>ENTER DETAILS TO CREATE YOUR ACCOUNT</h1>
+            <form action="signup" method="post">
+                {% csrf_token %}
+                <label>FIRST NAME</label>
+                <input type="text" name='fname'>
+                <br>            
+                <label>LAST NAME</label>
+                <input type="text" name='lname'>
+                <br>
+                <label>USER NAME</label>
+                <input type="text" name='uname'>
+                <br>
+                <label>E-MAIL</label>
+                <input type="email" name='email'>
+                <br>
+                <label>PASSWORD</label>
+                <input type="password" name='password'>
+                <br>
+                <input type='submit'>
+        </form>
+    </div>
+    <p>Already have an account? <a href="#">Login here</p>
+    </body>
+</html>

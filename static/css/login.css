@@ -1,0 +1,48 @@
+.back{
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(/static/css/img/back.jpg);
+    background-position: center;
+    background-size: auto;
+    position: absolute;  
+}
+
+.form{
+    width: 250px;
+    height: 380px;
+    background:rgba(0,0,0,0.7);
+    color:white;
+    position: absolute;
+    top:125px;
+    left: 1000px;
+    border-radius: 10px;
+    padding:25px;
+    
+}
+
+.form input{
+    width: 250px;
+    height: 35px;
+    font-size: 15px;
+    font-family: sans-serif;
+   
+}
+
+.btn{
+    margin-top:23px;
+    padding:2px;
+    
+}
+
+.form p{
+    font-family: sans-serif;
+    font-size: 20px;
+}
+
+a{
+    text-decoration: none;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 17px;
+}
+
